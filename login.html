@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página de Suplementos" />
+  <meta name="author" content="Rafael Aguilar" />
+  <meta name="author" content="Daniel Costa" />
+  <title>SuplementaFit D&R</title>
+  <link rel="stylesheet" href="./CSS/home.css" />
+  <script src="https://kit.fontawesome.com/4def4e0478.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./CSS/forms.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="img/SuplementaFit D&R .png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <?--navbar--?>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="home.html"><img src="img/SuplementaFit D&R .png" alt="Logo" /></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./produtos.html">Produtos</a></li>
+      <li><a href="./sobreNos.html">Sobre nós</a></li>
+    </ul>
+    <div class="login-button">
+      <i class="fas fa-user"></i>
+      <a href="./login.html" class="a-login">Login</a>
+    </div>
+  </nav>
+  <?--fim navbar--?>
+  
+  <!--Inicio formulario-->
+
+  <div id="form">
+    <button class="back-button" onclick="window.history.back()">
+      <- Voltar</button>
+
+        <form action="">
+          <h2 class="titulo">Login</h2>
+
+          <label for="email">E-mail</label>
+          <div class="input">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <input id="email" name="email" placeholder="Seu e-mail" type="email" required>
+          </div>
+
+          <label for="senha">Senha</label>
+          <div class="input">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input id="senha" name="senha" placeholder="Digite sua senha" type="password" required>
+          </div>
+          <p>caso não tenha uma conta ainda, clique <a class="link" href="cadastro.html"><strong>aqui</strong></a> e se
+            cadastre. </p>
+
+          <div id="btn">
+            <button type="submit">Entrar</button>
+          </div>
+
+        </form>
+  </div>
+  <?--fim do formulário--?>
+
+<?--rodapé--?>
+  <footer>
+    <div class="boxs">
+      <h2>Inicio</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Páginas</h2>
+      <ul>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobreNos.html">Sobre nós</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Informações</h2>
+      <ul>
+        <li><a href="#">Email: suplementaFitD&R@gmail.com</a< /li>
+        <li><a href="#">Contato: 11 99999-9999</a></li>
+        <li><a href="#">Endereço: Rua Igarapé Agua Azul,70</a></li>
+      </ul>
+    </div>
+    <div class="boxs">
+      <h2>Sobre nós</h2>
+      <p>A SuplementaFit D&R é uma empresa especializada em suplementos alimentares, comprometida em fornecer produtos
+        de alta qualidade para atletas e entusiastas do fitness</p>
+    </div>
+  </footer>
+
+  <div class="redes-sociais">
+    <h2>Etec Cidade Tiradentes</h2>
+    <div class="sociais">
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+<?--fim rodapé--?>
+
+</body>
+
+</html>

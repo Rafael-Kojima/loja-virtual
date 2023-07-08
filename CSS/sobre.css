@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Roboto+Mono&display=swap');
+
+body {
+  background-color: #222222;
+}
+
+.titulo-quem-somos {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.quem-somos {
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.valores {
+  padding: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 2px solid;
+  font-size: 20px;
+  width: 400px;
+  flex-basis: calc(25% - 20px);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 5px;
+
+  @media (max-width: 768px) {
+    width: calc(50% - 20px);
+    flex-basis: calc(50% - 20px);
+  }
+
+  @media (max-width: 480px) {
+    width: calc(100% - 20px);
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+}
+
+.titulo-card {
+  text-align: center;
+  font-size: 25px;
+}
